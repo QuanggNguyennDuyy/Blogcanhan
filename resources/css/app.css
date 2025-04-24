@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+    --primary-color: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary-color: #10b981;
+    --background-light: #f3f4f6;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --white: #ffffff;
+}
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-lg font-semibold transition-all duration-300;
+    }
+
+    .btn-primary {
+        @apply bg-indigo-600 text-white hover:bg-indigo-700 hover:shadow-lg;
+    }
+
+    .btn-secondary {
+        @apply border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white;
+    }
+
+    .card {
+        @apply bg-white rounded-lg shadow-md overflow-hidden;
+    }
+
+    .form-control {
+        @apply w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500;
+    }
+}
