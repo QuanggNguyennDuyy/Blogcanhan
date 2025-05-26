@@ -18,7 +18,7 @@
 
                         <div class="newsletter-widget text-left">
                             <form class="form-inline">
-                                <input type="text" class="form-control" placeholder="Enter your email address">
+                                <input type="text" class="form-control" placeholder="Nhập địa chỉ email của bạn">
                                 <button type="submit" class="btn btn-primary">Đăng ký</button>
                             </form>
                         </div><!-- end newsletter -->
@@ -60,7 +60,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <br>
-                <div class="copyright">&copy; Blog. Design: <a href="http://html.design">HTML Design</a>.</div>
+                <div class="copyright">&copy; Blog. Design: HTML Design</a>.</div>
             </div>
         </div>
     </div><!-- end container -->
